@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: b vazir;
+  font-weight: bold;
+}
+
+body {
+  background-color: #eef0e5;
+}
+
+.nav {
+  max-width: 100%;
+  background-color: #b6c4b6;
+  border-radius: 10px;
+  height: max-content;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav ul {
+  padding: 15px;
+}
+
+
+.nav a {
+  color: #163020;
+  text-decoration: none;
+  font-size: larger;
+  padding: 15px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.nav a:hover {
+  background-color: #eef0e5;
+  border-radius: 15px;
+  opacity: 0.75;
+  transition: 0.45s;
+}
+
+.nav-login-sign {
+  background-color: #b6c4b6;
+  border-radius: 10px;
+  height: max-content;
+  max-width: 60%;
+}
+
+.nav-login-sign li {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-login-sign ul {
+  padding: 20px;
+}
+
+.nav-login-sign a {
+  color: #163020;
+  text-decoration: none;
+  font-size: larger;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.nav-login-sign a:hover {
+  background-color: #eef0e5;
+  border-radius: 15px;
+  opacity: 0.75;
+  transition: 0.45s;
+}
+
+.picture {
+  margin-top: 2%;
+  max-width: 50%;
+  height: 25%;
+}
+
+.picture-img img {
+  border-radius: 30px;
+  max-width: 70%;
+  box-shadow: 0 0 15px 0.25px rgba(182, 196, 182, 0.450);
+}
+
+.h2 {
+  color: #163020;
+  text-align: center;
+  font-size: 5vw;
+  padding: 10px;
+  font: large;
+}
+
+.left-nav {
+  float: left;
+}
+
+.form {
+  max-width: 30%;
+  height: 60%;
+  margin-top: 50px;
+  background-color: #b6c4b6;
+  border-radius: 10px;
+  display: grid;
+  justify-items: center;
+  box-shadow: 0 0 15px 0.25px rgba(182, 196, 182, 0.450);
+}
+
+
+
+.form-input {
+  border: none;
+  background-color: #b6c4b6;
+  border-bottom: 1px solid #163020;
+  margin-top: 5px;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+
+.form label {
+  margin-top: 15px;
+}
+
+.form-input-submit {
+  background-color: #304D30;
+  color: #b6c4b6;
+  border: 1px solid #163020;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.form-input-submit:hover {
+  opacity: 0.65;
+  transition: 0.45s;
+  box-shadow: 0 0 15px 0.25px rgba(182, 196, 182, 0.450);
+}
+
+.form p {
+  opacity: 0.55;
+  font: small-caption;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.form a {
+  text-decoration: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #b6c4b6;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  bottom: 0;
+}
+
+.h3-Services {
+  font-size: xx-large;
+  color: #163020;
+  margin: 3rem;
+  padding: 10px;
+}
+
+.ul-li-Services {
+  color: #163020;
+  list-style-type: disc;
+}
+
+.kol-Services {
+  max-width: 100%;
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Services {
+  max-width: 100%;
+  margin: 2rem;
+  padding: 1rem;
+  color: #163020;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 0.5px rgba(182, 196, 182, 0.450);
+}
+
+.Services img {
+  max-width: 100%;
+  height: 15rem;
+  border-radius: 15px;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.Services img:hover {
+  transition: 0.5s;
+  opacity: 0.75;
+}
+
+.Services h3 {
+  font-size: larger;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.Services button {
+  padding: 0.75rem;
+  background-color: #304D30;
+  color: #b6c4b6;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.Services button:hover {
+  transition: 0.5s;
+  opacity: 0.80;
+  box-shadow: 0 0 15px 1px rgba(182, 196, 182, 0.450);
+}
+
+.Examples-of-works {
+  max-width: 100%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Work-samples {
+  max-width: 100%;
+  margin: 2rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 1px rgba(182, 196, 182, 0.450);
+}
+
+.Work-samples img {
+  max-width: 20rem;
+  height: 15rem;
+  border-radius: 15px;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.Work-samples img:hover {
+  transition: 0.5s;
+  opacity: 0.85;
+}
+
+.up a {
+  font-size: 3rem;
+  margin: 2rem;
+  padding: 20px;
+  text-decoration: none;
+  color: #163020;
+  cursor: pointer;
+}
